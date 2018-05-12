@@ -1,6 +1,21 @@
 language: node_js
 node_js:
 - node
+
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don't fail
+install:
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - binaries/hugo --theme=fresh
+
 deploy:
   provider: s3
   access_key_id: AKIAJVTYYE5DWHGHIA7A
