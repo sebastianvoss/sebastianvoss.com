@@ -14,7 +14,7 @@ install:
 
 # Build the website
 script:
-  - binaries/hugo --theme=fresh
+  - binaries/hugo
 
 deploy:
   provider: s3
