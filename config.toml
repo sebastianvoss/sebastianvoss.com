@@ -1,0 +1,31 @@
+theme = "coder" # set the theme
+
+[params] # theme parameters
+    author = "Sebastian Voss" # author's name
+    info = "Full Stack Software Engineer" # author's job title or info
+    description = "John Doe's personal website" # site description
+    keywords = "blog,developer,personal" # site keywords
+
+    # wether you want to hide copyright and credits in the footer
+    hideCredits = false
+    hideCopyright = false
+    
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/sebastianvoss/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/sebastian_voss/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/sevoss/"
+
+# Menu links
+#[[menu.main]]
+#    name = "Blog"
+#    weight = 1
+#    url  = "/posts/"
