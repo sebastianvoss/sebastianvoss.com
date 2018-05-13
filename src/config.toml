@@ -27,6 +27,11 @@ baseURL = "https://sebastianvoss.com/"
 
 # Menu links
 [[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/"
+
+[[menu.main]]
     name = "Blog"
     weight = 1
     url  = "/posts/"
