@@ -1,4 +1,5 @@
 theme = "hugo-coder" # set the theme
+baseURL = "https://sebastianvoss.com/"
 
 [params] # theme parameters
     author = "Sebastian Voss" # author's name
