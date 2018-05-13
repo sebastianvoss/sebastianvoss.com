@@ -8,7 +8,7 @@ baseURL = "https://sebastianvoss.com/"
     keywords = "blog,developer,personal" # site keywords
 
     # wether you want to hide copyright and credits in the footer
-    hideCredits = false
+    hideCredits = true
     hideCopyright = false
     
 # Social links
@@ -33,5 +33,5 @@ baseURL = "https://sebastianvoss.com/"
 
 [[menu.main]]
     name = "Blog"
-    weight = 1
+    weight = 0
     url  = "/posts/"
