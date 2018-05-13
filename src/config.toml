@@ -1,6 +1,10 @@
 theme = "hugo-coder" # set the theme
 baseURL = "https://sebastianvoss.com/"
 
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [params] # theme parameters
     author = "Sebastian Voss" # author's name
     info = "Full Stack Software Engineer" # author's job title or info
