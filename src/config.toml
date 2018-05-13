@@ -1,4 +1,4 @@
-theme = "coder" # set the theme
+theme = "hugo-coder" # set the theme
 
 [params] # theme parameters
     author = "Sebastian Voss" # author's name
@@ -25,7 +25,7 @@ theme = "coder" # set the theme
     url = "https://www.linkedin.com/in/sevoss/"
 
 # Menu links
-#[[menu.main]]
-#    name = "Blog"
-#    weight = 1
-#    url  = "/posts/"
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
