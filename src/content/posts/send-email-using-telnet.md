@@ -1,7 +1,7 @@
 ---
 title: "Send Email Using Telnet"
 date: 2018-05-17T10:47:34+02:00
-draft: true
+draft: false
 ---
 
 Sometimes you need to check if a SMTP server is functioning correctly.
