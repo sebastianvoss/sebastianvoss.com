@@ -10,12 +10,12 @@
 
 ## Add Post
 
-```hugo new src/posts/my-first-post.md```
+```hugo new -s src posts/my-first-post.md```
 
 ## Run local server
 
 ```
-hugo server -D -s src
+hugo server -s src -D
 ```
 
 ## References
