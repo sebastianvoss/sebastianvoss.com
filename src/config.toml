@@ -1,5 +1,6 @@
 theme = "hugo-coder" # set the theme
 baseURL = "https://sebastianvoss.com/"
+title = "Sebastian Voss"
 
 pygmentsstyle = "b2"
 pygmentscodefences = true
